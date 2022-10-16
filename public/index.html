@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Certificate</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   
+
+    <header> 
+        <img src="image/logo2.png" alt="Rebel">
+        <h3>Get Your Certificate</h3>
+        <h1><a href="http://express-weather2022.herokuapp.com" target="_blank" rel="noopener noreferrer">Check My weather Web App</a></h1> 
+    </header>
+
+    <main>
+        <label for="name">Type Your Name</label>
+        <input required type="text" name="name" id="name" autocomplete="off" placeholder="Enter Your Name">
+        <button id="submit">Get Certificate</button>
+    </main>
+    <!-- <iframe src="" id="mypdf" height="400px" width="400px" frameborder="0"></iframe> -->
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="js/FileSaver.js"></script>
+    <script src="js/main.js"></script>
+  
+</body>
+</html>
