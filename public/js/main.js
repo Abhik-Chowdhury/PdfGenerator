@@ -46,6 +46,7 @@ const inputVal = document.querySelector("#name")
 
 submitBtm.addEventListener("click",()=>{
     const val = inputVal.value
+    if(val=="")
     generatePDF(val)
 })
 
