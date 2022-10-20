@@ -46,7 +46,12 @@ const inputVal = document.querySelector("#name")
 
 submitBtm.addEventListener("click",()=>{
     const val = inputVal.value
-    if(val=="")
-    generatePDF(val)
+    if(val==""){
+        alert("Please fill any name")
+    }
+    else{
+
+        generatePDF(val)
+    }
 })
 
